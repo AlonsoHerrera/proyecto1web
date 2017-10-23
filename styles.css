@@ -1,3 +1,7 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
 body{
 	background-image: url(imgs/fondofa.jpg);
 	background-position: center center; 
@@ -11,6 +15,12 @@ body{
   /*fondo de respaldo*/
   background-color: #464646;
 }
+#contenedor{
+	width: 1200px;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom:20px; 
+}
 header{
 	width: 70%;
 	height: 130px;
@@ -19,7 +29,22 @@ header{
     text-align: center;
     background-image: url(imgs/fondofr.jpg);
     box-shadow: 0px 0px 10px #000;
-
+    border-radius: 7px;
+}
+#contenido{
+	width: 700px;
+	float: left;;
+	margin-top: 10px;
+	margin-right: 10px; 
+}
+aside{
+	width: 250px;
+	height: 500px;
+	margin-top: 10px;
+	float: right;;
+}
+footer{
+	clear: both;
 }
 a{
 	text-decoration: none;
@@ -42,13 +67,14 @@ li{
 .menu{
 	width: 60% ;
 	float: right;
+
 	padding: 40px 0px ;
 }
 .menu li{
 	display: inline;
 }
 .menu li a{
-	margin-right: 20px;
+	margin-right: 5px;
 	font-size: 17px;
 	color: #F0FFFF;
 	font-family: 'Alfa Slab One', cursive;
@@ -57,6 +83,105 @@ li{
 .menu li a:hover{
 background-image: url(imgs/button.jpg);
 color:#A9A9A9;
-border-radius: 5px;
+border-radius: 4px;
 
+}
+#imgbievenida{
+	width: 100%;
+	box-shadow: 0px 0px 10px #000;
+    border-radius: 7px;
+}
+.bienvenidos{
+    width: 70%;
+	height: 150px;
+	padding:10px 15%;
+    margin: 5px auto;
+    text-align: center;
+    background-image: url(imgs/fondofr.jpg);
+    box-shadow: 0px 0px 10px #000;
+    border-radius: 20px;
+}
+.bienvenidos h1{
+    font-size:30px; 
+	color:#F0FFFF;
+    font-family: 'Alfa Slab One', cursive;
+}
+.bienvenidos p{
+    font-size:18px; 
+	color:#F0FFFF;
+}
+.foot{
+	width: 70%;
+	height: 130px;
+	padding:0px 15%;
+    margin: 5px auto;
+    text-align: center;
+    background-image: url(imgs/fondofr.jpg);
+    box-shadow: 0px 0px 10px #000;
+    border-radius: 7px;
+}
+
+.foot p{
+    font-size:18px; 
+	color:#F0FFFF;
+	font-family: 'Alfa Slab One', cursive;
+    padding: 40px 0px;
+}
+.foot p a{
+    color:#000;
+}
+.articulo_1{
+    width: 700px;
+	height: 550px;
+	padding:10px 15%;
+    margin: 5px auto;
+    text-align: center;
+    background-image: url(imgs/fondofr.jpg);
+    box-shadow: 0px 0px 10px #000;
+    border-radius: 7px;
+}
+.articulo_1 h1{
+	padding: 10px 15%;
+    font-size:30px; 
+	color:#F0FFFF;
+    font-family: 'Alfa Slab One', cursive;
+}
+.articulo_1 p{
+    font-size:15px; 
+	color:#F0FFFF;
+	font-family: 'Alfa Slab One', cursive;
+	text-align: justify;
+}
+#mascota3d{
+	padding: 20px 15%;
+	width: 400px;
+	height: 250px;
+}
+
+.articulo_2{
+    width: 700px;
+	height: 520px;
+	padding:10px 15%;
+    margin: 5px auto;
+    text-align: center;
+    background-image: url(imgs/fondofr.jpg);
+    box-shadow: 0px 0px 10px #000;
+    border-radius: 7px;
+}
+.articulo_2 h1{
+	padding: 10px 15%;
+    font-size:30px; 
+	color:#F0FFFF;
+    font-family: 'Alfa Slab One', cursive;
+}
+.articulo_2 p{
+    font-size:15px; 
+	color:#F0FFFF;
+	font-family: 'Alfa Slab One', cursive;
+	text-align: justify;
+}
+#estadiop{
+	padding: 20px 15%;
+	width: 400px;
+	height: 250px;
 }
