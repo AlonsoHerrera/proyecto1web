@@ -1,1 +1,10 @@
-
+header{
+	height: 80px;
+	background: red;
+}
+section{
+	width:  1200px;
+	margin:  auto;;
+	height:  400px;
+	background: #ccc;
+}
