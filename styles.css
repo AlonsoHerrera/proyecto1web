@@ -16,33 +16,35 @@ body{
   background-color: #464646;
 }
 #contenedor{
-	width: 1100px;
+	width: 960px;
 	margin: auto;
 	margin-top: 20px;
 	margin-bottom:20px; 
 }
 header{
-	width: 70%;
+	width: 90%;
 	height: 130px;
-	padding:0px 15%;
+	padding:0px 5%;
     margin: 5px auto;
     text-align: center;
+    
     background-image: url(imgs/button.jpg);
     box-shadow: 0px 0px 10px #000;
     border-radius: 7px;
 }
 #contenido{
-	width: 700px;
+	width: 300px;
 	float: left;;
 	margin-top: 10px;
-	margin-right: 10px; 
+	margin-right: 0px; 
 }
 aside{
-	width: 250px;
-	height: 500px;
+	width: 100px;
+	height: 600px;
 	margin-top: 10px;
 	float: right;
-	background-image:url(imgs/fondoblanco.png); 
+	padding:0px 11%;
+	background-image:url(imgs/button.png); 
 }
 footer{
 	clear: both;
@@ -69,18 +71,21 @@ li{
 	width: 60% ;
 	float: right;
 	padding: 40px 0px ;
+	padding-top: 50px;
+	padding-left: 0px;
 }
 .menu li{
 	display: inline;
 }
 .menu li a{
 	margin-right: 5px;
-	font-size: 17px;
+	font-size: 16px;
 	color: #F0FFFF;
+
 	font-family: 'Alfa Slab One', cursive;
-	padding: 5px;
+	padding-right: 0px;
 }
-.menu li a:hover{
+.menu li a:hover{s
 background-image: url(imgs/button.jpg);
 color:#A9A9A9;
 border-radius: 4px;
@@ -113,61 +118,106 @@ border-radius: 4px;
 }
 .articulo_1{
     width: 600px;
-	height: 570px;
-	padding:5px 15%;
-    margin: 5px auto;
-    text-align: center;
+	height: 400px;
+	padding:5px 24%;
+    margin: 9px auto;
     background-image: url(imgs/button.jpg);
     box-shadow: 0px 0px 10px #000;
-    border-radius: 7px;
+    border-radius:7px;
 }
 .articulo_1 h1{
     font-size:30px; 
 	color:#F0FFFF;
+	text-align: center;
     font-family: 'Alfa Slab One', cursive;
+    padding-top: 10px;
 }
 .articulo_1 p{
     font-size:15px; 
 	color:#A9A9A9;
 	font-family: 'Alfa Slab One', cursive;
 	text-align: justify;
+	padding-top: 20px;
 }
 #mascota3d{
-	padding: 20px 15%;
-	width: 400px;
-	height: 250px;
+	padding: 5px 15%;
+	width: 300px;
+	height: 200px;
+	float: left;
+	padding-left: 0px;
+	padding-top: 20px;
+	padding-right: 20px;
+	border-radius: 25px;
 }
-
 .articulo_2{
     width: 600px;
-	height: 525px;
-	padding:10px 15%;
-    margin: 5px auto;
-    text-align: center;
+	height: 370px;
+	padding:5px 24%;
+    margin: 9px auto;
     background-image: url(imgs/button.jpg);
     box-shadow: 0px 0px 10px #000;
-    border-radius: 7px;
+    border-radius:7px;
 }
 .articulo_2 h1{
     font-size:30px; 
 	color:#F0FFFF;
+	text-align: center;
     font-family: 'Alfa Slab One', cursive;
+    padding-top: 10px;
 }
 .articulo_2 p{
-
     font-size:15px; 
 	color:#A9A9A9;
 	font-family: 'Alfa Slab One', cursive;
 	text-align: justify;
+	padding-top: 15px;
+
 }
 #estadiop{
-	padding: 20px 15%;
-	width: 400px;
-	height: 250px;
+	padding: 5px 15%;
+	width: 300px;
+	height: 200px;
+	float: left;
+	padding-left: 10px;
+	padding-top: 20px;
+	padding-right: 20px;
+	border-radius: 25px;
+}
+.articulo_3{
+    width: 600px;
+	height: 300px;
+	padding:5px 24%;
+    margin: 9px auto;
+    background-image: url(imgs/button.jpg);
+    box-shadow: 0px 0px 10px #000;
+    border-radius:7px;
+}
+.articulo_3 h1{
+    font-size:20px;
+    text-align: center; 
+	color:#F0FFFF;
+    font-family: 'Alfa Slab One', cursive;
+}
+.articulo_3 p{
+    font-size:15px; 
+	color:#A9A9A9;
+	font-family: 'Alfa Slab One', cursive;
+	text-align: justify;
+	padding-top: 15px;
+}
+#balon{
+	padding: 5px 15%;
+	width: 300px;
+	height: 200px;
+	float: left;
+	padding-left: 10px;
+	padding-top: 20px;
+	padding-right: 20px;
+	border-radius: 25px;
 }
 .paisescla{
 	width: 180px;
-	height: 850px;
+	height: 870px;
 	padding: 10px 15%;
 	margin: 5px auto;
     text-align: left;
@@ -180,16 +230,19 @@ border-radius: 4px;
 	color:#F0FFFF;
     font-family: 'Alfa Slab One', cursive;
     text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .paisescla li a{
 	color:#A9A9A9;
 	font-size:17px; 
     font-family: 'Alfa Slab One', cursive;
     text-align: left;
+    border-left: 10px; 
 }
 .foot{
 	width: 70%;
-	height: 130px;
+	height: 100px;
 	padding:0px 15%;
     margin: 5px auto;
     text-align: center;
