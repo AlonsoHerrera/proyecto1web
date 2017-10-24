@@ -1,0 +1,141 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-image: url(../imgs/fb.jpg);
+	background-position: center center; 
+	background-repeat:no-repeat;
+	 /* La imagen de fondo está fija en el viewport, de modo que no se mueva cuando  la altura del
+	  contenido supere la altura de la imagen. */
+	background-attachment: fixed;
+     /*reescalar cuando se cambia el ancho de ventana
+     del navegador */
+  background-size: cover;
+  /*fondo de respaldo*/
+  background-color: #464646;
+}
+#contenedor{
+	width: 960px;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom:20px; 
+}
+header{
+	width: 90%;
+	height: 130px;
+	padding:0px 5%;
+    margin: 5px auto;
+    text-align: center;
+    
+    background-image: url(../imgs/button.jpg);
+    box-shadow: 0px 0px 10px #000;
+    border-radius: 7px;
+}
+#contenido{
+	width: 300px;
+	float: left;;
+	margin-top: 10px;
+	margin-right: 0px; 
+}
+aside{
+	width: 100px;
+	height: 600px;
+	margin-top: 10px;
+	float: right;
+	padding:0px 11%;
+	background-image:url(../imgs/button.png); 
+}
+footer{
+	clear: both;
+
+}
+a{
+	text-decoration: none;
+}
+li{
+	text-decoration: none;
+	list-style:none;
+}
+.logo{
+	width: 40%;
+	float: left;
+	padding: 40px 0px;
+}
+.logo a{
+
+	font-size:30px; 
+	color:#F0FFFF;
+	font-family: 'Alfa Slab One', cursive;
+}
+.menu{
+	width: 60% ;
+	float: right;
+	padding: 40px 0px ;
+	padding-top: 50px;
+	padding-left: 0px;
+}
+.menu li{
+	display: inline;
+}
+.menu li a{
+	margin-right: 5px;
+	font-size: 16px;
+	color: #F0FFFF;
+
+	font-family: 'Alfa Slab One', cursive;
+	padding-right: 0px;
+}
+.menu li a:hover{
+background-image: url(../imgs/button.jpg);
+color:#A9A9A9;
+border-radius: 4px;
+
+}
+
+.paisescla{
+	width: 180px;
+	height: 870px;
+	padding: 10px 15%;
+	margin: 5px auto;
+    text-align: left;
+    background-image: url(../imgs/button.jpg);
+    box-shadow: 0px 0px 10px #000;
+    border-radius: 7px;
+}
+.paisescla h1{
+    font-size:25px; 
+	color:#F0FFFF;
+    font-family: 'Alfa Slab One', cursive;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.paisescla li a{
+	color:#A9A9A9;
+	font-size:17px; 
+    font-family: 'Alfa Slab One', cursive;
+    text-align: left;
+    border-left: 10px; 
+}
+.foot{
+	width: 70%;
+	height: 100px;
+	padding:0px 15%;
+    margin: 5px auto;
+    text-align: center;
+    background-image: url(../imgs/button.jpg);
+    box-shadow: 0px 0px 10px #000;
+    border-radius: 7px;
+}
+
+.foot p{
+    font-size:18px; 
+	color:#A9A9A9;
+	font-family: 'Alfa Slab One', cursive;
+    padding: 40px 0px;
+}
+.foot p a{
+    color:#000;
+}
+

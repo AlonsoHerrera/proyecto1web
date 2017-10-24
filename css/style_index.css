@@ -1,0 +1,124 @@
+#imgbievenida{
+	width: 100%;
+	box-shadow: 0px 0px 10px #000;
+    border-radius: 7px;
+}
+.bienvenidos{
+    width: 70%;
+	height: 150px;
+	padding:10px 15%;
+    margin: 5px auto;
+    text-align: center;
+    background-image: url(../imgs/button.jpg);
+    box-shadow: 0px 0px 10px #000;
+    border-radius: 20px;
+}
+.bienvenidos h1{
+    font-size:30px; 
+	color:#F0FFFF;
+    font-family: 'Alfa Slab One', cursive;
+}
+.bienvenidos p{
+    font-size:18px; 
+	color:#A9A9A9;
+	font-family: 'Alfa Slab One', cursive;
+}
+.articulo_1{
+    width: 600px;
+	height: 400px;
+	padding:5px 24%;
+    margin: 9px auto;
+    background-image: url(../imgs/button.jpg);
+    box-shadow: 0px 0px 10px #000;
+    border-radius:7px;
+}
+.articulo_1 h1{
+    font-size:30px; 
+	color:#F0FFFF;
+	text-align: center;
+    font-family: 'Alfa Slab One', cursive;
+    padding-top: 10px;
+}
+.articulo_1 p{
+    font-size:15px; 
+	color:#A9A9A9;
+	font-family: 'Alfa Slab One', cursive;
+	text-align: justify;
+	padding-top: 20px;
+}
+#mascota3d{
+	padding: 5px 15%;
+	width: 300px;
+	height: 200px;
+	float: left;
+	padding-left: 0px;
+	padding-top: 20px;
+	padding-right: 20px;
+	border-radius: 25px;
+}
+.articulo_2{
+    width: 600px;
+	height: 370px;
+	padding:5px 24%;
+    margin: 9px auto;
+    background-image: url(../imgs/button.jpg);
+    box-shadow: 0px 0px 10px #000;
+    border-radius:7px;
+}
+.articulo_2 h1{
+    font-size:30px; 
+	color:#F0FFFF;
+	text-align: center;
+    font-family: 'Alfa Slab One', cursive;
+    padding-top: 10px;
+}
+.articulo_2 p{
+    font-size:15px; 
+	color:#A9A9A9;
+	font-family: 'Alfa Slab One', cursive;
+	text-align: justify;
+	padding-top: 15px;
+
+}
+#estadiop{
+	padding: 5px 15%;
+	width: 300px;
+	height: 200px;
+	float: left;
+	padding-left: 10px;
+	padding-top: 20px;
+	padding-right: 20px;
+	border-radius: 25px;
+}
+.articulo_3{
+    width: 600px;
+	height: 310px;
+	padding:5px 24%;
+    margin: 9px auto;
+    background-image: url(../imgs/button.jpg);
+    box-shadow: 0px 0px 10px #000;
+    border-radius:7px;
+}
+.articulo_3 h1{
+    font-size:20px;
+    text-align: center; 
+	color:#F0FFFF;
+    font-family: 'Alfa Slab One', cursive;
+}
+.articulo_3 p{
+    font-size:15px; 
+	color:#A9A9A9;
+	font-family: 'Alfa Slab One', cursive;
+	text-align: justify;
+	padding-top: 15px;
+}
+#balon{
+	padding: 5px 15%;
+	width: 300px;
+	height: 200px;
+	float: left;
+	padding-left: 10px;
+	padding-top: 20px;
+	padding-right: 20px;
+	border-radius: 25px;
+}
