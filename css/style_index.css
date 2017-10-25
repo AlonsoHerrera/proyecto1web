@@ -95,6 +95,7 @@
 	height: 310px;
 	padding:5px 24%;
     margin: 9px auto;
+    margin-bottom: 50px;
     background-image: url(../imgs/button.jpg);
     box-shadow: 0px 0px 10px #000;
     border-radius:7px;
