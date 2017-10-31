@@ -1,0 +1,97 @@
+.titulo{
+    width: 70%;
+	height: 70px;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    padding-left: 150px;
+    padding-right: 140px;
+    margin: 5px auto;
+    text-align: center;
+    background-image: url(../imgs/button.jpg);
+    box-shadow: 0px 0px 10px #000;
+    border-radius: 20px;
+}
+.titulo h1{
+    font-size:30px; 
+	color:#F0FFFF;
+    font-family: 'Alfa Slab One', cursive;
+}
+.grupo_a{
+    width: 600px;
+    height: auto;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 5px;
+    padding-bottom:20px;
+    margin: 9px auto;
+    background-image: url(../imgs/button.jpg);
+    box-shadow: 0px 0px 10px #000;
+    border-radius:7px;
+}
+.grupo_a h1{
+    font-size:30px; 
+    color:#F0FFFF;
+    text-align: center;
+    font-family: 'Alfa Slab One', cursive;
+    padding-top: 10px;
+}
+.grupo_a p{
+    font-size:15px; 
+    color:#A9A9A9;
+    font-family: 'Alfa Slab One', cursive;
+    text-align: justify;
+    padding-top: 20px;
+}
+
+#t01 tr:nth-child(even) {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #C0C0C0;
+    color:#000;
+    font-size:13px; 
+    font-family: 'Alfa Slab One', cursive;
+    text-align: center;
+}
+#t01 tr:nth-child(odd) {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    font-size:13px; 
+    font-family: 'Alfa Slab One', cursive;
+    color:#000;
+}
+#t01 th {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-top: 10px; 
+    background-image:url(../imgs/button.jpg);
+    border-radius: 3px;
+    color: white;
+    text-align: center;
+    font-size:15px; 
+    color:#DCDCDC  ;
+    font-family: 'Alfa Slab One', cursive;
+
+}
+.tabla1{
+    background-image: url(../imgs/fb.jpg);
+    margin-top:20px;
+    margin-left: 50px
+    margin-right: 50px;
+    padding-left: 50px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0px 0px 10px #000;
+    border-radius:5px;
+}
+.tabla1 h1{
+    color: #000;
+
+}
