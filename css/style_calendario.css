@@ -16,6 +16,21 @@
 	color:#F0FFFF;
     font-family: 'Alfa Slab One', cursive;
 }
+#img_grupos{
+    width: 200px;
+    height: 500px;
+    border-radius: 10px;
+}
+#grupo_div{
+    width: 97%;
+    height: 520px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: 0px 0px 10px #000;
+    border-radius: 7px;
+    background-image: url(../imgs/button.jpg);
+}
 .grupo_a{
     width: 600px;
     height: auto;
